@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="logica">
+      <UniqueIdentifier>{6c4fd0d0-d221-441c-8cd1-3e00d3d71797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vista">
+      <UniqueIdentifier>{3d4f6f60-c7c5-47fb-ae52-68677404e5e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extra">
+      <UniqueIdentifier>{f4fb42be-3fc2-4d5b-b367-bdae417c5c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="repositorios">
+      <UniqueIdentifier>{592b6a3c-285b-4d69-a5d3-19d06780a043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runner">
+      <UniqueIdentifier>{5c3d87e1-7983-4a3a-a359-21ceb0093b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entidades">
+      <UniqueIdentifier>{37f6efce-67d5-4b86-8614-400c84d0c2f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logica\headers">
+      <UniqueIdentifier>{dd15d8ed-c44d-4841-9869-15e6678df07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logica\origin">
+      <UniqueIdentifier>{8522eeaf-e0f4-4520-8c43-cc494a0496a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extra\headers">
+      <UniqueIdentifier>{38ff7568-086e-4c15-866e-57bdb9bd0339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extra\origin">
+      <UniqueIdentifier>{7f5bdf4f-42a3-41af-ae7e-9d16d069cb4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entidades\headers">
+      <UniqueIdentifier>{c390a4b3-4ad3-4b77-a5a3-d842fcbc886d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entidades\origin">
+      <UniqueIdentifier>{1e2bbcf5-e6ce-40e5-94b9-5c091eeb4414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="repositorios\headers">
+      <UniqueIdentifier>{807036bf-f4c5-49d9-8291-fb75f28db892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="repositorios\origin">
+      <UniqueIdentifier>{04eed54c-5ed4-4d3b-9fc2-67c2ca276b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runner\headers">
+      <UniqueIdentifier>{08050d86-b19c-44b4-8c3c-a21af16bd63f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runner\origin">
+      <UniqueIdentifier>{0ccdbc38-d4c0-4fa8-a947-6e117bccaa44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vista\headers">
+      <UniqueIdentifier>{b1f8efd9-44dd-431b-a1df-afbeec8ba4b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vista\origin">
+      <UniqueIdentifier>{70e87aac-b8b1-4896-a9ba-8503c54930ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Libro.cpp">
+      <Filter>logica\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="Usuario.cpp">
+      <Filter>logica\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="Prestamo.cpp">
+      <Filter>logica\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFunctions.cpp">
+      <Filter>extra\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="Tabular.cpp">
+      <Filter>extra\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="NodoLibro.cpp">
+      <Filter>entidades\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="NodoListaNegra.cpp">
+      <Filter>entidades\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="NodoUsuario.cpp">
+      <Filter>entidades\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="NodoPrestamo.cpp">
+      <Filter>entidades\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="LibroRepositorio.cpp">
+      <Filter>repositorios\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaNegraRepositorio.cpp">
+      <Filter>repositorios\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="PrestamoRepositorio.cpp">
+      <Filter>repositorios\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="UsuarioRepositorio.cpp">
+      <Filter>repositorios\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="Biblioteca_NCTeam.cpp">
+      <Filter>runner\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVars.cpp">
+      <Filter>runner\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>vista\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="Pantallas.cpp">
+      <Filter>vista\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="NodoPrestamoLibroUsuario.cpp">
+      <Filter>entidades\origin</Filter>
+    </ClCompile>
+    <ClCompile Include="OperacionesNodoLibro.cpp">
+      <Filter>extra\origin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Libro.h">
+      <Filter>logica\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Prestamo.h">
+      <Filter>logica\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Usuario.h">
+      <Filter>logica\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunctions.h">
+      <Filter>extra\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tabular.h">
+      <Filter>extra\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Entidades.h">
+      <Filter>entidades\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Repositorios.h">
+      <Filter>repositorios\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVars.h">
+      <Filter>runner\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IConectar.h">
+      <Filter>repositorios\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>vista\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Pantallas.h">
+      <Filter>vista\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OperacionesNodo.h">
+      <Filter>extra\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
