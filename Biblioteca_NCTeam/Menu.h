@@ -46,8 +46,6 @@ void historialDePrestamos();
 
 void nuevoUsuario();
 
-void estadisticasDePrestamos(); //xd
-
 void menuPrincipal();
 
 // FUNCIONES TÉCNICAS

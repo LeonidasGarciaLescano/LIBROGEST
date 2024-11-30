@@ -13,3 +13,4 @@ bool validarSoloEspaciosEnBlanco(const string& str);
 bool validarFecha(const string& fecha);
 string obtenerFechaDevolucion(int dias);
 string obtenerFechaActual();
+bool esFechaMayor(string fecha1, string fecha2);

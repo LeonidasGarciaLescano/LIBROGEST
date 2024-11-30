@@ -14,13 +14,10 @@ int main() {
 
     definirDrivers();
 
-    NodoPrestamo* prestamo = new NodoPrestamo();
-    prestamo->idPrestamo = 39;
-
     if (openConexion != NULL) {
         menu();
     }
-    else cout << "Oh sielos, la base de datos NOOOOOOOO!" << endl;
-
+    else cout << "No se pudo establecer la conexion inicial con la base de datos" << endl;
+    
     system("pause");
 }

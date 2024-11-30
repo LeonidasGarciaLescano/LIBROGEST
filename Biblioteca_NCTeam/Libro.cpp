@@ -89,9 +89,14 @@ NodoLibro* buscarPorAutor(string autor, NodoLibro*& libros) {
 			t = t->sgte;
 		}
 
+		if (librosEncontrados == NULL) {
+			errorGlobal = "Ningun autor coincide con el ingresado";
+		}
+
 		return librosEncontrados;
 
 	}
+	errorGlobal = "Ningun autor coincide con el ingresado";
 	return NULL;
 }
 
@@ -152,12 +157,20 @@ NodoLibro* buscarPorISBN(string isbn, NodoLibro*& libros) {
 				else {
 					librosEncontrados = coincidencia;
 				}
+
 				return librosEncontrados;
 			}
 
 			t = t->sgte;
 		}
 
+		errorGlobal = "Ningun autor coincide con el ingresado";
+		return librosEncontrados;
+
 	}
-	return NULL;
+	else {
+		errorGlobal = "El isbn ingresado no es valido";
+		return NULL;
+	}
+	
 }

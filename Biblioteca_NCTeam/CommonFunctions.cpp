@@ -72,3 +72,19 @@ string obtenerFechaActual() {
     strftime(buffer, sizeof(buffer), "%Y-%m-%d", localtime(&tiempoActual));
     return string(buffer);
 }
+
+bool esFechaMayor(string fecha1, string fecha2) {
+    int anio1 = stoi(fecha1.substr(0, 4));
+    int mes1 = stoi(fecha1.substr(5, 2));
+    int dia1 = stoi(fecha1.substr(8, 2));
+
+    int anio2 = stoi(fecha2.substr(0, 4));
+    int mes2 = stoi(fecha2.substr(5, 2));
+    int dia2 = stoi(fecha2.substr(8, 2));
+
+    if (anio1 != anio2)
+        return anio1 > anio2;
+    if (mes1 != mes2)
+        return mes1 > mes2;
+    return dia1 > dia2;
+}

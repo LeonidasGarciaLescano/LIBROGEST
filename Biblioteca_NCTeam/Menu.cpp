@@ -529,7 +529,6 @@ void historialDePrestamos() {
     }
 }
 
-
 // OPCIÓN 5 - REGISTRO DE USUARIOS
 
 void nuevoUsuario(){ 
@@ -590,13 +589,6 @@ void nuevoUsuario(){
     }
 }
 
-//xd
-void estadisticasDePrestamos() {
-    cout << "Funcion: Estadisticas de prestamos" << endl;
-}
-
-
-
 //SELECCIÓN DE OPCIONES
 void menuPrincipal(){
 	system("cls");
@@ -623,25 +615,20 @@ void menuPrincipal(){
                     busquedaDeLibros();
                     break;
                 case 2:
-                    nuevoUsuario();
-                    break;
-                case 3:
                     devolucionDeLibros();
                     break;
-                case 4:
+                case 3:
                     historialDePrestamos();
                     break;
-                case 5:
-                    estadisticasDePrestamos();
+                case 4:
+                    nuevoUsuario();
                     break;
             }
             system ("cls");
             pantallaPrincipal(opcionSeleccionada);
-        } 
+        }
     }
 }
-
-
 
 int menu() {
     tamanoConsola();

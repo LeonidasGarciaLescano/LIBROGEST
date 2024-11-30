@@ -208,7 +208,7 @@ void pantallaPrincipal(int opcionSeleccionada) {
     };
     int numLines2 = sizeof(asciiArt2) / sizeof(asciiArt2[0]);
     for (int i = 0; i < numLines2; ++i) {
-        gotoxy(4, 11 + i);
+        gotoxy(4, 12 + i);
         cout << asciiArt2[i];
     }
 
@@ -221,33 +221,29 @@ void pantallaPrincipal(int opcionSeleccionada) {
     };
     int numLines3 = sizeof(asciiArt3) / sizeof(asciiArt3[0]);
     for (int i = 0; i < numLines3; ++i) {
-        gotoxy(80, 11 + i);
+        gotoxy(80, 12 + i);
         cout << asciiArt3[i];
     }
 	
 	// 2 superiores
-    dibujarCuadro(7, 10, 50, 10, opcionSeleccionada == 0); 
-    gotoxy(14, 17); cout << "R E G I S T R O   D E   L I B R O S";
+    dibujarCuadro(7, 11, 50, 10, opcionSeleccionada == 0); 
+    gotoxy(14, 18); cout << "R E G I S T R O   D E   L I B R O S";
     
-    dibujarCuadro(64, 10, 50, 10, opcionSeleccionada == 1); 
-    gotoxy(72, 17); cout << "B U S Q U E D A   D E   L I B R O S";
-    
-    // central
-    dibujarCuadro(7, 20, 107, 3, opcionSeleccionada == 2); 
-    gotoxy(37, 21); cout << "R E G I S T R A R   N U E V O   U S U A R I O";
+    dibujarCuadro(64, 11, 50, 10, opcionSeleccionada == 1); 
+    gotoxy(72, 18); cout << "B U S Q U E D A   D E   L I B R O S";
     
     // 3 inferiores
-    dibujarCuadro(7, 23, 33, 6, opcionSeleccionada == 3); 
-    gotoxy(11, 25); cout << "D E V O L U C I O N   D E";
-    gotoxy(18, 26); cout << "L I B R O S";
+    dibujarCuadro(7, 22, 33, 5, opcionSeleccionada == 2);
+    gotoxy(11, 23); cout << "D E V O L U C I O N   D E";
+    gotoxy(18, 25); cout << "L I B R O S";
     
-    dibujarCuadro(44, 23, 33, 6, opcionSeleccionada == 4); 
-    gotoxy(49, 25); cout << "H I S T O R I A L   D E";
-    gotoxy(53, 26); cout << "P R E S T A M O S";
+    dibujarCuadro(44, 22, 33, 5, opcionSeleccionada == 3); 
+    gotoxy(49, 23); cout << "H I S T O R I A L   D E";
+    gotoxy(53, 25); cout << "P R E S T A M O S";
     
-    dibujarCuadro(81, 23, 33, 6, opcionSeleccionada == 5); 
-    gotoxy(83, 25); cout << "E S T A D I S T I C A S   D E";
-    gotoxy(89, 26); cout << "P R E S T A M O S";
+    dibujarCuadro(81, 22, 33, 5, opcionSeleccionada == 4); 
+    gotoxy(83, 23); cout << "R E G I S T R A R   N U E V O";
+    gotoxy(91, 25); cout << "U S U A R I O";
     
     gotoxy(0, 0);
 }
